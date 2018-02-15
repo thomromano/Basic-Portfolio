@@ -3,51 +3,83 @@
 }
 
 
-
 html {
     display: table;
     margin: auto;
+
 }
 
 body {
+    
+    width: 100%;
+    background-image: url(concrete_seamless.png);
     font-family: Arial, Helvetica, sans-serif;
     display: table-cell;
     vertical-align: middle;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 100%;
     
 }
 
-/* Style the header */
+h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2, h3 {
+    color: #4aaaa5;
+}
+
+/* header */
 
 header {
-    
-    border-bottom-width: 5px;
+   position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom-width: 2px;
     border-bottom-style: solid;
-    border-bottom-color: green;
+    border-bottom-color: #cccccc;
 }
 
-header h2, header nav {
+.headcontain {
+    max-width: 960px;
+    margin: auto;
+    
+    vertical-align: middle;
+}
+
+header h1, header nav {
     display: inline-block;
     
+    
+    
 }
 
-header h2 {
-    background-color: aqua;
-    color: floralwhite;
-    padding: 10px;
-    margin-left: 20px;
+header h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+
     margin-bottom: 0px;
 }
 
 nav {
     float: right;
-    margin-right: 60px;
+    margin-right: 0px;
     margin-top: 15px;
     
 }
 nav li {
     display: inline-block;
     color: gray;
-    padding: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
     
 }
 
@@ -62,23 +94,28 @@ nav a:link {
 }
 
 .container {
-    background-image: url(topography.png);
-    /* width: 1064px; 
-    height: auto; */
-} /* tinker with min-width & height maybe? */
-
-/* Creates columns that float next to each other */
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 960px;
+}
+    
 .column {
     float: left;
     padding: 10px;
-    margin: 20px;
-    background-color:#777777;
-    color: floralwhite;
- 
+    margin-left: 0px;
+    margin-right: 40px;
+    margin-top: 40px;
+    
+    background-color:#ffffff;
+    color: #777777;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dddddd;
 }
 
 /* right column */
-.column.side {
+.column.side { 
+    margin-right: 0;
     width: 270px;
     text-align: center;
     color: floralwhite;
@@ -98,7 +135,7 @@ nav a:link {
     width: 650px;
 }
 
-.img {
+.indexpic {
     float: left;
     margin: 5px;
 }
@@ -120,8 +157,10 @@ hr social {
 
 /* footer */
 .footer {
-    background-color: #777777;
-    padding: 10px;
+    color: #ffffff;
+    background-color: #666666;
+    padding-top: 15px;
+    padding-bottom: 15px;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -129,7 +168,11 @@ hr social {
     text-align: center;
     border-top-width: 10px;
     border-top-style: solid;
-    border-top-color: green;
+    border-top-color: #4aaaa5;
+}
+
+.pfoot {
+    font-size:70%;
 }
 
 /* Responsive layout - makes the columns stack on top of each other instead of next to each other */
@@ -151,18 +194,31 @@ input[type=textarea] {
     height: 200px;
 }
 
+input[type=button] {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 32px;
+    text-align: center;
+
+}
 /*Portfolio */
 
 .port {
     position: relative;
-    padding: 10px;
+    padding: 12px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
 }
     
 /* Bottom text */
 .text-block {
     position: absolute;
-    background-color: black;
+    width: 300px;
+    background-color: #4aaaa5;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    text-align: center;
+    margin-top: 170px;
+   
 }  
