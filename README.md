@@ -15,3 +15,4 @@ A basic portfolio to showcase my projects. Includes an About Me and a Contact se
 + Continue to add projects to my Portfolio page
 + Make the pages mobile-responsive
 + Get rid of the scroll bar on the Portfolio page
++ Update main profile picture
