@@ -8,7 +8,7 @@ A basic portfolio to showcase my projects. Includes an About Me and a Contact se
 ## Issues
 ---
 + Sticky footer isn't appearing properly on the bottom of all the pages
-+ Correct the images in the Portfolio page. Some appear as broken links
+
 
 ## To Do
 ---
