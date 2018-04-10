@@ -17,3 +17,4 @@ A basic portfolio to showcase my projects. Includes an About Me and a Contact se
 + Get rid of the scroll bar on the Portfolio page
 + Update main profile picture
 + Add group project to portfolio
+
