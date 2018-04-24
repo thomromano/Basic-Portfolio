@@ -16,5 +16,6 @@ A basic portfolio to showcase my projects. Includes an About Me and a Contact se
 + Make the pages mobile-responsive
 + Get rid of the scroll bar on the Portfolio page
 + Update main profile picture
++ Make all portfolio imgs the same size
 
 
